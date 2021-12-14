@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.inner-margin {
+  padding: 5px 50px;
+}
+
+.header {
+  background: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  flex: 1 1 8%;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 32px;
+}
+
+.logo a:hover {
+  color: #343434;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav {
+  flex: 5 1 auto;
+  text-align: center;
+}
+
+.nav a {
+  color: #fff;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  transition: all 320s ease-out;
+}
+
+.nav a:hover {
+  color: #343434;
+  font-size: 12px;
+}
+
+.social-network {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.social-network a {
+  color: #fff;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+.social-network a:hover {
+  color: #343434;
+}
+
+.banner {
+  height: 580px;
+  display: flex;
+  align-items: center;
+}
+
+.banner h1 {
+  font-family: 'Lora', serif;
+  font-weight: 300;
+  font-size: 21px;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.section {
+  background: #dddada;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.articles {
+  background: #eeeaea;
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.article {
+  flex: 1 1 40%;
+  color: #444;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 10px 10px 0 0px;
+  background: #ececec;
+  flex: 1 1 35%;
+}
+
+.article h3 {
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 0;
+  margin-top: -80px;
+}
+
+.article h2 {
+  color: #fff;
+  font-size: 25px;
+  padding: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.article a {
+  color: #fff;
+  font-size: 13px;
+  padding: 10px;
+  background: #000;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.article a:hover {
+  background: #4c63b4;
+}
+
+.article img {
+  width: 100%;
+}
+
+.arto-nav {
+  background: #000;
+  flex: 1 1 100%;
+  margin: 10px 10px 0 0;
+}
+
+.arto-nav a {
+  color: #f7f0f0;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
